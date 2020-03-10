@@ -27,4 +27,4 @@ defaults:
         type: "projects"
     values:
         layout: page
-        image: 
+        image: /images/myself.JPG
