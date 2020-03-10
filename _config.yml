@@ -1,1 +1,30 @@
-theme: jekyll-theme-minimal
+# Site config
+baseurl: ""
+
+# User config
+author: "Ying Lu"
+description: "A Personal Portfolio."
+email: "lu000097@umn.edu"
+
+# User collections
+collections:
+    projects:
+        output: true
+    posts:
+        output: true
+
+# Collection defaults.
+defaults:
+-
+    scope:
+        path: "_posts"
+        type: "posts"
+    values:
+        layout: page
+-
+    scope:
+        path: "_projects"
+        type: "projects"
+    values:
+        layout: page
+        image: 
